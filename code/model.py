@@ -1,7 +1,11 @@
 import logging
 import keras.backend as K
-from keras.layers import Dense, Activation, Embedding, Input
+
+from keras.layers import Input, Dense
 from keras.models import Model
+
+from keras.layers import *
+from keras.models import *
 from my_layers import Attention, Average, WeightedSum, WeightedAspectEmb, MaxMargin
 
 

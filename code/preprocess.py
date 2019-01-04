@@ -44,8 +44,8 @@ def preprocess(domain):
     print '\t'+domain+' test set ...'
     preprocess_test(domain)
 
-print 'Preprocessing raw review sentences ...'
-preprocess('restaurant')
-preprocess('beer')
+print 'Preprocessing raw sentences ...'
+preprocess('politics')
+# preprocess('beer')
 
 
